@@ -1,0 +1,48 @@
+.nav {
+  width: 100%;
+  background-color: cyan;
+  padding: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.nav ul {
+  background-color: cyan;
+}
+
+.nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+  background-color: cyan;
+  /* font-weight: bold; */
+  padding: 5px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: black;
+  background-color: cyan;
+}
+
+.nav ul li:first-child {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+i {
+  background-color: cyan;
+  /* color: white; */
+  color: black;
+}
+
+span {
+  padding-right: 10px;
+  background-color: cyan;
+}
+
+.nav ul li a:hover {
+  color: red;
+}

@@ -1,0 +1,21 @@
+.products {
+  width: 96%;
+  background-color: black;
+  margin-top: 20px;
+  margin-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.products div {
+   width: 270px;
+   height: 270px;
+   margin-left: 20px;
+   margin-top: 20px;
+   border: 1px solid green;
+   background-color: white;
+}
+
+.products div:hover {
+  border: 1px solid green;
+}

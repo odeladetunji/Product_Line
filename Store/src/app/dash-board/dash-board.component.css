@@ -1,0 +1,141 @@
+.dashboard {
+  background-color: #212222;
+  width: 100%;
+  padding-bottom: 20px;
+}
+.dashboard button {
+  padding: 10px 30px;
+  color: white;
+  margin-top: 20px;
+  border: none;
+  font-size: 20px;
+}
+
+.smallComponents {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 20px;
+}
+
+.eachComponents {
+  color: white;
+  display: flex;
+  background-color: black;
+  flex-wrap: nowrap;
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 12px;
+  width: 22%;
+  border-radius: 5px;
+}
+
+.eachComponents .leftsection div {
+  width: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border: 3px solid white;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.eachComponents .leftsection {
+  background-color: black;
+}
+
+.eachComponents .rightsection {
+  background-color: black;
+  padding-top: 10px;
+}
+
+.eachComponents .rightsection p {
+  background-color: black;
+  text-align: right;
+  padding-left: 20px;
+}
+
+.eachComponents .rightsection p:first-child {
+  color: cyan;
+}
+
+.eachComponents .rightsection p:last-child {
+  color: orange;
+}
+
+.indicators {
+  width: 23.8%;
+  border-radius: 5px;
+  background-color: black;
+  margin-top: 20px;
+  margin-left: 12px;
+  padding-bottom: 20px;
+  /* padding-top: 20px; */
+}
+
+.indicators .status {
+  background-color: black;
+}
+
+.indicators .status p {
+  width: 180px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  border: 5px solid white;
+  background-color: green;
+  margin-left: 45px;
+  border-radius: 50%;
+  border-bottom: 5px solid orange;
+  text-align: center;
+  color: white;
+  border-right: 5px solid orange;
+}
+
+.indicators .status p:hover {
+  background-color: lightgreen;
+}
+
+
+.indicators h4 {
+  background-color: black;
+  color: cyan;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.warehouse {
+  margin-left: 15px;
+  width: 23.8%;
+  background-color: black;
+  margin-top: 20px;
+  border-radius: 5px;
+  border-radius: 5px;
+}
+
+.warehouse i {
+  font-size: 200px;
+  color: cyan;
+  background-color: black;
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
+
+.warehouse h4 {
+  background-color: black;
+  text-align: center;
+  padding-top: 20px;
+  color: cyan;
+  border-radius: 5px;
+  padding-bottom: 20px;
+}
+
+.meters {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.warehouse i:hover {
+  color: white;
+}
